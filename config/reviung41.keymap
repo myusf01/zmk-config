@@ -77,6 +77,7 @@
 #define _BACKTICK RA(BACKSLASH)
 #define _TILDE RA(RIGHT_BRACKET)
 #define _NUMBER_SIGN RA(N3) //hashtag sign
+#define _SSWIN LG(LS(S)) //Screenshot shortcut for Windows 
 #define _LOCKSCREEN LC(LS(C_PWR)) // Screen Lock shortcut for OSX
 
 // Layers
