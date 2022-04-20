@@ -159,7 +159,7 @@
                 // KP_DOT is comma on the Turkish layout ¯\_(ツ)_/¯
                 numpad_layer {
 // -----------------------------------------------------------------------------------------
-// |_SSWIN|     |     |     |     |   =  |   |Num7 |Num8 |Num9 |  -  |   | BKSP|
+// |SSWIN|     |     |     |     |   =  |   |Num7 |Num8 |Num9 |  -  |   | BKSP|
 // |     |     |     |     |     |  .   |   |Num4 |Num5 |Num6 |  +  |   |     |
 // |     |     |     |     |     |  ,   |   |Num1 |Num2 |Num3 |  .  |   |     |
 //                   |      |     | Enter |  Num0   |  Num0   |
