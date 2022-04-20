@@ -77,7 +77,6 @@
 #define _BACKTICK RA(BACKSLASH)
 #define _TILDE RA(RIGHT_BRACKET)
 #define _NUMBER_SIGN RA(N3) //hashtag sign
-#define _SSWIN LG(LS(S)) //Screenshot shortcut for Windows 
 #define _LOCKSCREEN LC(LS(C_PWR)) // Screen Lock shortcut for OSX
 
 // Layers
@@ -159,12 +158,12 @@
                 // KP_DOT is comma on the Turkish layout ¯\_(ツ)_/¯
                 numpad_layer {
 // -----------------------------------------------------------------------------------------
-// |SSWIN|     |     |     |     |   =  |   |Num7 |Num8 |Num9 |  -  |   | BKSP|
+// ||     |     |     |     |   =  |   |Num7 |Num8 |Num9 |  -  |   | BKSP|
 // |     |     |     |     |     |  .   |   |Num4 |Num5 |Num6 |  +  |   |     |
 // |     |     |     |     |     |  ,   |   |Num1 |Num2 |Num3 |  .  |   |     |
 //                   |      |     | Enter |  Num0   |  Num0   |
                         bindings = <
-   &kp _SSWIN    &none  &none  &none  &none  &kp KP_EQUAL              &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &kp BSPC
+   &none    &none  &none  &none  &none  &kp KP_EQUAL              &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &kp BSPC
    &none         &none  &none  &none  &none  &kp SLASH                 &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &none  &none
    &none         &none  &none  &none  &none  &kp KP_DOT                &kp N1  &kp N2  &kp N3  &kp SLASH  &none  &none
                                 &none  &none    &kp RET    &kp N0  &kp N0 

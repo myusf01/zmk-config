@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": [
+            "file:///c%3A/Users/myusf/github_files/zmk-config/.github/workflows/build.yml",
+            "file:///c%3A/Users/myusf/github_files/zmk-config/build.yaml"
+        ]
+    }
+}
