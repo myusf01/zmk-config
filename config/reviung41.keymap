@@ -78,7 +78,7 @@
 #define _TILDE RA(RIGHT_BRACKET)
 #define _NUMBER_SIGN RA(N3) //hashtag sign
 #define _LESS NON_US_BACKSLASH  // <
-#define _GREATER LS(_LESS_THEN) // >
+#define _GREATER LS(NON_US_BACKSLASH) // >
 
 #define _SSWIN LG(LS(S)) //Screenshot shortcut for Windows
 #define _LYWIN LG(GRAVE) // PoweToys Layout Edit
