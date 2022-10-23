@@ -78,7 +78,7 @@
 #define _TILDE RA(RIGHT_BRACKET)
 #define _NUMBER_SIGN RA(N3) //hashtag sign
 #define _SSWIN LG(LS(S)) //Screenshot shortcut for Windows
-#define _LYWIN LG(DQT) // PoweToys Layout Edit
+#define _LYWIN LG(GRAVE) // PoweToys Layout Edit
 #define _LNCHRWIN LA(SPACE) // PowerToys Launcher
 #define _LOCKSCREEN LC(LS(C_PWR)) // Screen Lock shortcut for OSX
 
@@ -111,7 +111,7 @@
    &lt _NUMPAD ESC  &kp Q  &kp W  &kp E  &kp R  &kp T           &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC
    &mt LSHFT CLCK  &kp A  &kp S  &kp D  &kp F  &kp G            &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT
    &mt LCTRL TAB  &kp Z  &kp X  &kp C  &kp V  &kp B             &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt LCTRL RET
-        &mt LALT _DOLLAR_SIGN  &lt _LOWER BSLH    &lt _SPACE SPACE    &lt _RAISE NON_US_BACKSLASH  &mt LGUI _AT_SIGN
+        &mt LALT _DOLLAR_SIGN  &lt _LOWER BSLH    &lt _SPACE SPACE    &lt _RAISE GRAVE  &mt LGUI _AT_SIGN
                         >;
                 };
 
@@ -124,7 +124,7 @@
                         bindings = <
    &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT           &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &kp BSPC
    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                       &kp _DOLLAR_SIGN  &kp UNDERSCORE     &none &none &kp PLUS  &kp EQUAL
-   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12                    &kp _SQUARE_OPEN  &kp _SQUARE_CLOSE  &kp _CURLY_OPEN  &kp _CURLY_CLOSE  &kp LT  &kp GT
+   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12                    &kp _SQUARE_OPEN  &kp _SQUARE_CLOSE  &kp _CURLY_OPEN  &kp _CURLY_CLOSE  &kp NON_US_BACKSLASH  &mt LEFT_SHIFT NON_US_BACKSLASH
                         &kp F13  &trans    &kp RET    &mo _ADJUST  &kp F14 /* TODO */
                         >;
                 };
